@@ -1,0 +1,16 @@
+{
+  "name": "Search Google Map",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "An extension to search google map from context menu.",
+  "action": {
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "./main.js",
+    "type": "module"
+  }
+}
